@@ -80,7 +80,7 @@ def make_list_for_mid_actual_build(file_name):
             #  -------------------Кадастровый номер------------------------------------------
             if len(data3) >= 1:
                 for cad_number in data3:
-                    _cad_number = ca_d_number.text
+                    _cad_number = cad_number.text
             else:
                 _cad_number = "None"
             #  -------------------Адрес-------------------------------------------
